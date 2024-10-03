@@ -1,0 +1,127 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+apply plugin: 'kotlin-android'
+
+allprojects {
+    repositories {
+        mavenCentral()
+        flatDir {
+            dirs '../libs'
+        }
+    }
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+        maven { url "https://jitpack.io" }
+        maven { url "https://maven.google.com" }
+    }
+
+    dependencies {
+        classpath 'io.realm:realm-gradle-plugin:10.10.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.0"
+        classpath 'com.android.tools.build:gradle:7.2.2'
+    }
+}
+
+android {
+    compileSdkVersion 34
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.vantiv.sampleapp"
+        minSdkVersion 29
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    packagingOptions {
+        exclude "META-INF/LICENSE"
+        exclude "META-INF/NOTICE"
+        exclude "META-INF/DEPENDENCIES"
+        pickFirst "lib/*/libtlvtree.so"
+        pickFirst "lib/*/libpcltools.so"
+    }
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.2'
+    }
+
+    buildTypes {
+        release {
+            //set minifyEnabled true/false to generate build with proguard(code obfuscation) ON/OFF
+            minifyEnabled false
+            //uncomment below statement to test proguard against release build with debug signing config.
+            //signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    repositories {
+        maven { url 'https://repo1.maven.org/maven2' }
+    }
+
+    productFlavors {
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.4.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'com.google.android.material:material:1.9.0'
+    testImplementation 'junit:junit:4.13.2'
+
+    // triPOSMobileSDK dependencies:
+    implementation(name:'roamreaderunifiedapi-2.5.2.1-release', ext:'aar')
+    implementation(name:'triposmobilesdk-release', ext:'aar')
+    implementation (name:'iPclBridge', ext:'aar')
+    implementation (name:'PclServiceLib_2.21.02', ext:'aar')
+    implementation (name:'PclUtilities_2.21.02', ext:'aar')
+    implementation (name:'rba_sdk', ext:'aar')
+    implementation (name:'retail-types-release-22.01.06.01-0010', ext:'aar')
+    implementation (name:'ux-server-release-22.01.06.01-0010', ext:'aar')
+
+    implementation 'com.google.dagger:dagger:2.45'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation 'commons-io:commons-io:2.11.0'
+    implementation group: 'commons-validator', name: 'commons-validator', version: '1.7'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'org.apache.logging.log4j:log4j-api:2.17.1'
+    implementation 'org.apache.logging.log4j:log4j-core:2.17.1'
+    implementation 'org.simpleframework:simple-xml:2.7.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'androidx.work:work-runtime-ktx:2.8.1'
+    implementation "org.apache.commons:commons-compress:1.21"
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+    implementation 'com.squareup.okhttp3:okhttp-tls:4.10.0'
+}

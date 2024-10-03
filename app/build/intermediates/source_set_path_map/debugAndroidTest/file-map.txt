@@ -1,0 +1,7 @@
+com.vantiv.sampleapp.test.app-androidTest-0 C:\Users\yangm\Downloads\triPOS Mobile SDK\sampleapp\app\build\generated\res\resValues\androidTest\debug
+com.vantiv.sampleapp.test.app-androidTest-1 C:\Users\yangm\Downloads\triPOS Mobile SDK\sampleapp\app\build\generated\res\rs\androidTest\debug
+com.vantiv.sampleapp.test.app-mergeDebugAndroidTestResources-2 C:\Users\yangm\Downloads\triPOS Mobile SDK\sampleapp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.vantiv.sampleapp.test.app-mergeDebugAndroidTestResources-3 C:\Users\yangm\Downloads\triPOS Mobile SDK\sampleapp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.vantiv.sampleapp.test.app-merged_res-4 C:\Users\yangm\Downloads\triPOS Mobile SDK\sampleapp\app\build\intermediates\merged_res\debugAndroidTest
+com.vantiv.sampleapp.test.app-androidTest-5 C:\Users\yangm\Downloads\triPOS Mobile SDK\sampleapp\app\src\androidTest\res
+com.vantiv.sampleapp.test.app-androidTestDebug-6 C:\Users\yangm\Downloads\triPOS Mobile SDK\sampleapp\app\src\androidTestDebug\res

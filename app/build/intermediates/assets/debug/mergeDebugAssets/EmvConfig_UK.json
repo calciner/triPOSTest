@@ -1,0 +1,895 @@
+{
+    // Application selection methods:
+    //  "PSE_THEN_AID"
+    //  "PSE_ONLY"
+    //  "PPSE_ONLY"
+    //  "AID_ONLY"
+    "selectionMethod": "PSE_THEN_AID",
+
+    "aidList": [
+        // Visa
+        {
+            "aids": [
+                // Visa Credit or Debit or Easy Entry
+                "A0000000031010",
+
+                // Visa Electron
+                "A0000000032010"
+            ],
+
+            "allowExtendedAid": true,
+
+            // Kernel id values
+            //   "AMEX"
+            //   "DISCOVER"
+            //   "INTERAC"
+            //   "JCB"
+            //   "MASTERCARD"or "MASTER"
+            //   "MIR"
+            //   "NSICC"
+            //   "PURE"
+            //   "RUPAY"
+            //   "PBOC" or "UNIONPAY"
+            //   "VISA"
+            //   "EMV"
+            "kernelId": "EMV",
+
+            "emvRecommendedAppName": "VISA",
+
+            // Default DDOL
+            "ddol": "9F 37 04",
+
+            // Default TDOL
+            "tdol": "9F 02 06 95 05 5F 2A 02 9A 03 9C 01 9F 37 04",
+
+            // Default UDOL
+            "udol": "",
+
+
+            "tags": {
+                // Application Version number. Default is 00 02
+                "9F09": "008C",
+
+                // Terminal Floor Limit
+                "9F1B": "00 00 01 F4",
+
+                // Terminal Action Code Default
+                "DF918110": "DC 40 00 A8 00",
+
+                // Terminal Action Code Denial
+                "DF918111": "00 10 00 00 00",
+
+                // Terminal Action Code Online
+                "DF918112": "DC 40 04 F8 00"
+            }
+        },
+        // Mastercard
+        {
+            "aids": [
+                // MasterCard PayPass AID
+                "A0000000041010",
+
+                // Maestro PayPass AID for debit
+                "A0000000043060"
+            ],
+
+            "allowExtendedAid": true,
+
+            // Kernel id values
+            //   "AMEX"
+            //   "DISCOVER"
+            //   "INTERAC"
+            //   "JCB"
+            //   "MASTERCARD"or "MASTER"
+            //   "MIR"
+            //   "NSICC"
+            //   "PURE"
+            //   "RUPAY"
+            //   "PBOC" or "UNIONPAY"
+            //   "VISA"
+            //   "EMV"
+            "kernelId": "EMV",
+
+            "emvRecommendedAppName": "MasterCard",
+
+            // Default DDOL
+            "ddol": "9F 37 04",
+
+            // Default TDOL
+            "tdol": "9F 02 06 95 05 5F 2A 02 9A 03 9C 01 9F 37 04",
+
+            // Default UDOL
+            "udol": "",
+
+            "tags": {
+                // Application Version number. Default is 00 02
+                "9F09": "00 02",
+
+                // Terminal Floor Limit
+                "9F1B": "00 00 01 F4",
+                
+                // Cert Terminal Action Code Default
+                // "DF918110": "FE 50 B8 F8 00",
+
+                // Cert Terminal Action Code Denial
+                // "DF918111": "00 00 00 00 00",
+
+                // Cert Terminal Action Code Online
+                // "DF918112": "FE 50 B8 A0 00",
+
+                // Prod Terminal Action Code Default
+                "DF918110": "FE 50 B8 A0 00",
+
+                // Prod Terminal Action Code Denial
+                "DF918111": "00 00 00 00 00",
+
+                // Prod Terminal Action Code Online
+                "DF918112": "FE 50 B8 F8 00"
+            }
+        },
+                // American Express
+                {
+                    "aids": [
+                        // American Express ExpressPay AID
+                        "A00000002501"
+                    ],
+
+                    "allowExtendedAid": true,
+
+                    // Kernel id values
+                    //   "AMEX"
+                    //   "DISCOVER"
+                    //   "INTERAC"
+                    //   "JCB"
+                    //   "MASTERCARD"or "MASTER"
+                    //   "MIR"
+                    //   "NSICC"
+                    //   "PURE"
+                    //   "RUPAY"
+                    //   "PBOC" or "UNIONPAY"
+                    //   "VISA"
+                    //   "EMV"
+                    "kernelId": "EMV",
+
+                    "emvRecommendedAppName": "AMEX",
+
+                    //Default DDOL
+                    "ddol": "9F 37 04",
+
+                    //Default TDOL
+                    "tdol": "9F 02 06 95 05 5F 2A 02 9A 03 9C 01 9F 37 04",
+
+                    //Default UDOL
+                    "udol": "",
+
+                    "tags": {
+                        // Application Version number. Default is 00 02
+                        "9F09": "00 01",
+
+                        // Terminal Floor Limit
+                        "9F1B": "00 00 00 00",
+
+                        // Terminal Action Code Default
+                        "DF918110": "C8 00 00 00 00",
+
+                        // Terminal Action Code Denial
+                        "DF918111": "00 00 00 00 00",
+
+                        // Terminal Action Code Online
+                        "DF918112": "C8 00 00 00 00"
+                    }
+                },
+        // Discover
+        {
+            "aids": [
+                // Discover DPAS AID
+                "A0000001523010"
+            ],
+
+            "allowExtendedAid": true,
+
+            // Kernel id values
+            //   "AMEX"
+            //   "DISCOVER"
+            //   "INTERAC"
+            //   "JCB"
+            //   "MASTERCARD"or "MASTER"
+            //   "MIR"
+            //   "NSICC"
+            //   "PURE"
+            //   "RUPAY"
+            //   "PBOC" or "UNIONPAY"
+            //   "VISA"
+            //   "EMV"
+            "kernelId": "EMV",
+
+            "emvRecommendedAppName": "Discover",
+
+            //Default DDOL
+            "ddol": "9F 37 04",
+
+            //Default TDOL
+            "tdol": "9F 02 06 95 05 5F 2A 02 9A 03 9C 01 9F 37 04",
+
+            //Default UDOL
+            "udol": "",
+
+            "tags": {
+                // Application Version number. Default is 00 02
+                "9F09": "00 01",
+
+                // Terminal Floor Limit
+                "9F1B": "00 00 00 00",
+
+                // Data storage container record data
+                "DF8102": "00",
+
+                // Cert Terminal Action Code Default
+                //"DF918110": "DC 00 00 A0 00",
+
+                // Cert Terminal Action Code Denial
+                //"DF918111": "00 10 00 00 00",
+
+                // Cert Terminal Action Code Online
+                //"DF918112": "FC E0 9C F8 00",
+
+                // Prod Terminal Action Code Default
+                "DF918110": "DC 00 00 A0 00",
+
+                // Prod Terminal Action Code Denial
+                "DF918111": "00 10 00 00 00",
+
+                // Prod Terminal Action Code Online
+                "DF918112": "FC E0 9C F8 00"
+            }
+        },
+        // JCB
+        {
+            "aids": [
+                // JCB AID
+                "A0000000651010"
+            ],
+
+            "allowExtendedAid": true,
+
+            // Kernel id values
+            //   "AMEX"
+            //   "DISCOVER"
+            //   "INTERAC"
+            //   "JCB"
+            //   "MASTERCARD"or "MASTER"
+            //   "MIR"
+            //   "NSICC"
+            //   "PURE"
+            //   "RUPAY"
+            //   "PBOC" or "UNIONPAY"
+            //   "VISA"
+            //   "EMV"
+            "kernelId": "EMV",
+
+            "emvRecommendedAppName": "JCB",
+
+            //Default DDOL
+            "ddol": "9F 37 04",
+
+            //Default TDOL
+            "tdol": "9F 02 06 95 05 5F 2A 02 9A 03 9C 01 9F 37 04",
+
+            //Default UDOL
+            "udol": "",
+
+            "tags": {
+                // Application Version number. Default is 00 02
+                "9F09": "02 00",
+
+                // Terminal Floor Limit
+                "9F1B": "00 00 01 F4",
+
+                // Terminal Action Code Default
+                "DF918110": "FC 60 24 A8 00",
+
+                // Terminal Action Code Denial
+                "DF918111": "00 10 00 00 00",
+
+                // Terminal Action Code Online
+                "DF918112": "FC 60 AC F8 00"
+            }
+        },
+
+        // Visa contactless
+        {
+            "aids": [
+                // Visa Credit or Debit or Easy Entry
+                "A0000000031010",
+
+                // Visa Electron
+                "A0000000032010"
+            ],
+
+            "allowExtendedAid": true,
+
+            // Kernel id values
+            //   "AMEX"
+            //   "DISCOVER"
+            //   "INTERAC"
+            //   "JCB"
+            //   "MASTERCARD"or "MASTER"
+            //   "MIR"
+            //   "NSICC"
+            //   "PURE"
+            //   "RUPAY"
+            //   "PBOC" or "UNIONPAY"
+            //   "VISA"
+            //   "EMV"
+            "kernelId": "VISA",
+
+            "emvRecommendedAppName": "VISA",
+
+            "tags": {
+                // Application Version number. Default is 00 02
+                "9F09": "00 96",
+
+                // Terminal Capabilities:
+                //   80 = offline PIN in clear
+                //   40 = online PIN
+                //   20 = sign
+                //   10 = encrypted offline PIN
+                //   8 = no CVM
+                "9F33": "E0 B8 C8",
+
+                // Terminal Transaction Qualifier
+                // MSD supported:   B1b8 1=yes, 0=no
+                // qVSDC supported: B1b6 1=yes, 0=no
+                // EMV supported:   B1b5 1=yes, 0=no
+                "9F66": "32 60 40 00",
+
+                //Terminal Action denial
+                "DF04": "01 02",
+
+                "DF06": "7C 00",
+
+                // Cless Floor Limit,
+                "DF8123": "00 00 00 00 00 00",
+
+                // Cless Cvm Required Limit
+                "DF8126": "00 00 00 01 00 00",
+
+                // Kernel function configuration (Wave2 only). Should be set to 00 00 00 00 00
+                "DF918165": "00 00 00 00 00",
+
+                // CDCVM is supported. Should be set to 01
+                "DF91816B": "01"
+            }
+        },
+        // Mastercard contactless
+        {
+            "aids": [
+                // MasterCard PayPass AID
+                "A0000000041010"
+            ],
+
+            "allowExtendedAid": true,
+
+            // Kernel id values
+            //   "AMEX"
+            //   "DISCOVER"
+            //   "INTERAC"
+            //   "JCB"
+            //   "MASTERCARD"or "MASTER"
+            //   "MIR"
+            //   "NSICC"
+            //   "PURE"
+            //   "RUPAY"
+            //   "PBOC" or "UNIONPAY"
+            //   "VISA"
+            //   "EMV"
+            "kernelId": "MASTER",
+
+            "emvRecommendedAppName": "MC",
+
+            // Default Internal TDOL
+            "tdol": "9F 08 02",
+
+            // Default UDOL
+            "udol": "9F 6A 04",
+
+            "tags": {
+                // Application Version number. Default is 00 02
+                "9F09": "00 02",
+
+                // Terminal Risk Management Data
+                "9F1D": "0C 3A 80 00 00 00 00 00",
+
+                // Transaction Category Code Mastercard
+                "9F53": "52",
+
+                // Paypass MStripe Application Version Number. Default is 00 01
+                "9F6D": "00 01",
+
+                // Cless Transaction Limit
+                "DF8124": "00 00 00 00 99 99",
+
+                // PayPass Cless Transaction CDCVM Limit
+                "DF8125": "00 00 00 99 99 99",
+
+                // Cless Floor Limit
+                "DF8123": "00 00 00 00 00 00",
+
+                // Cless Cvm Required Limit
+                "DF8126": "00 00 00 01 00 00",
+
+                // CVM capabilities (CVM required)
+                // | b8 | b7 | b6 | b5 | b4 | b3 | b2 | b1 |         Meaning                              |
+                // |  X |  - |  - |  - |  - |  - |  - |  - | Plaintext PIN verified by ICC                |
+                // |  - |  X |  - |  - |  - |  - |  - |  - | Enciphered PIN verified online               |
+                // |  - |  - |  X |  - |  - |  - |  - |  - | Signature                                    |
+                // |  - |  - |  - |  X |  - |  - |  - |  - | Enciphered PIN verification performed by ICC |
+                // |  - |  - |  - |  - |  X |  - |  - |  - | No CVM required                              |
+                // |  - |  - |  - |  - |  - |  0 |  - |  - | RFU                                          |
+                // |  - |  - |  - |  - |  - |  - |  0 |  - | RFU                                          |
+                // |  - |  - |  - |  - |  - |  - |  - |  0 | RFU                                          |
+                "DF918205": "00",
+
+                // CVM capabilities (no CVM required).
+                // | b8 | b7 | b6 | b5 | b4 | b3 | b2 | b1 |         Meaning                              |
+                // |  X |  - |  - |  - |  - |  - |  - |  - | Plaintext PIN verified by ICC                |
+                // |  - |  X |  - |  - |  - |  - |  - |  - | Enciphered PIN verified online               |
+                // |  - |  - |  X |  - |  - |  - |  - |  - | Signature                                    |
+                // |  - |  - |  - |  X |  - |  - |  - |  - | Enciphered PIN verification performed by ICC |
+                // |  - |  - |  - |  - |  X |  - |  - |  - | No CVM required                              |
+                // |  - |  - |  - |  - |  - |  0 |  - |  - | RFU                                          |
+                // |  - |  - |  - |  - |  - |  - |  0 |  - | RFU                                          |
+                // |  - |  - |  - |  - |  - |  - |  - |  0 | RFU                                          |
+                "DF918206": "08",
+
+                // Terminal Capabilities:
+                //   80 = offline PIN in clear
+                //   40 = online PIN
+                //   20 = sign
+                //   10 = encrypted offline PIN
+                //   8 = no CVM
+                "9F33": "E0 98 08",
+
+                // Indicates the CVM capability of the termina in thecase of a mag-stripe mode transaction when the Amount authorized Kernel: MASTER (Numeric) is greater than the Reader CVMRequired Limit
+                "DF918207": "10",
+
+                // Indicates the CVM capability of the Terminal in thecase of a mag-stripe mode transaction when the Amount authorized (Numeric) is less than or equal to the Reader CVMRequired Limit
+                "DF918208": "00",
+
+                // Terminal Action Code Default
+                "DF918110": "F4 50 80 80 0C",
+
+                // Terminal Action Code Denial
+                "DF918111": "00 00 00 00 00",
+
+                // Terminal Action Code Online
+                "DF918112": "F4 50 80 80 0C",
+
+                // Resistance relay protocol (RRP) is supported.
+                // "0" : Not supported
+                // "1" : Supported
+                "DF91820C": "01",
+
+                // Terminal supports torn transaction recovery.
+                // "0" : Not supported
+                // "1" : Supported
+                "DF918203": "00",
+
+                // CDCVM is suported.
+                // "0" : Not supported
+                // "1" : Supported
+                "DF918204": "01",
+
+                // DEF_TAG_M_TRANS_MODE
+                // 01=EMV mode only
+                // 00=EMV and MSD mode
+                "DF918201": "01"
+            }
+        },
+        // Mastercard Maestro contactless
+        {
+            "aids": [
+
+                // Maestro
+                "A0000000043060"
+            ],
+
+            "allowExtendedAid": true,
+
+            // Kernel id values
+            //   "AMEX"
+            //   "DISCOVER"
+            //   "INTERAC"
+            //   "JCB"
+            //   "MASTERCARD"or "MASTER"
+            //   "MIR"
+            //   "NSICC"
+            //   "PURE"
+            //   "RUPAY"
+            //   "PBOC" or "UNIONPAY"
+            //   "VISA"
+            //   "EMV"
+            "kernelId": "MASTER",
+
+            "emvRecommendedAppName": "MC",
+
+            // Default Internal TDOL
+            "tdol": "9F 08 02",
+
+            // Default UDOL
+            "udol": "9F 6A 04",
+
+            "tags": {
+                // Application Version number. Default is 00 02
+                "9F09": "00 02",
+
+                // Terminal Risk Management Data
+                "9F1D": "0C 3A 80 00 00 00 00 00",
+
+                // Transaction Category Code Mastercard
+                "9F53": "52",
+
+                // Paypass MStripe Application Version Number. Default is 00 01
+                "9F6D": "00 01",
+
+                // Terminal Floor Limit
+                "9F1B": "00 00 00 00",
+                
+                // Cless Transaction Limit
+                "DF8124": "00 00 00 00 99 99",
+
+                // PayPass Cless Transaction CDCVM Limit
+                "DF8125": "00 00 00 99 99 99",
+
+                // Cless Floor Limit
+                "DF8123": "00 00 00 00 00 00",
+
+                // Cless Cvm Required Limit
+                "DF8126": "00 00 00 01 00 00",
+
+                // CVM capabilities (CVM required)
+                // | b8 | b7 | b6 | b5 | b4 | b3 | b2 | b1 |         Meaning                              |
+                // |  X |  - |  - |  - |  - |  - |  - |  - | Plaintext PIN verified by ICC                |
+                // |  - |  X |  - |  - |  - |  - |  - |  - | Enciphered PIN verified online               |
+                // |  - |  - |  X |  - |  - |  - |  - |  - | Signature                                    |
+                // |  - |  - |  - |  X |  - |  - |  - |  - | Enciphered PIN verification performed by ICC |
+                // |  - |  - |  - |  - |  X |  - |  - |  - | No CVM required                              |
+                // |  - |  - |  - |  - |  - |  0 |  - |  - | RFU                                          |
+                // |  - |  - |  - |  - |  - |  - |  0 |  - | RFU                                          |
+                // |  - |  - |  - |  - |  - |  - |  - |  0 | RFU                                          |
+                "DF918205": "00",
+
+                // CVM capabilities (no CVM required).
+                // | b8 | b7 | b6 | b5 | b4 | b3 | b2 | b1 |         Meaning                              |
+                // |  X |  - |  - |  - |  - |  - |  - |  - | Plaintext PIN verified by ICC                |
+                // |  - |  X |  - |  - |  - |  - |  - |  - | Enciphered PIN verified online               |
+                // |  - |  - |  X |  - |  - |  - |  - |  - | Signature                                    |
+                // |  - |  - |  - |  X |  - |  - |  - |  - | Enciphered PIN verification performed by ICC |
+                // |  - |  - |  - |  - |  X |  - |  - |  - | No CVM required                              |
+                // |  - |  - |  - |  - |  - |  0 |  - |  - | RFU                                          |
+                // |  - |  - |  - |  - |  - |  - |  0 |  - | RFU                                          |
+                // |  - |  - |  - |  - |  - |  - |  - |  0 | RFU                                          |
+                "DF918206": "08",
+
+                // Terminal Capabilities:
+                //   80 = offline PIN in clear
+                //   40 = online PIN
+                //   20 = sign
+                //   10 = encrypted offline PIN
+                //   8 = no CVM
+                "9F33": "E0 98 08",
+
+                // Indicates the CVM capability of the termina in thecase of a mag-stripe mode transaction when the Amount authorized Kernel: MASTER (Numeric) is greater than the Reader CVMRequired Limit
+                "DF918207": "10",
+
+                // Indicates the CVM capability of the Terminal in thecase of a mag-stripe mode transaction when the Amount authorized (Numeric) is less than or equal to the Reader CVMRequired Limit
+                "DF918208": "00",
+
+                // Terminal Action Code Default
+                "DF918110": "F4 50 80 80 0C",
+
+                // Terminal Action Code Denial
+                "DF918111": "00 00 00 00 00",
+
+                // Terminal Action Code Online
+                "DF918112": "F4 50 80 80 0C",
+
+                // Resistance relay protocol (RRP) is supported.
+                // "0" : Not supported
+                // "1" : Supported
+                "DF91820C": "01",
+
+                // Terminal supports torn transaction recovery.
+                // "0" : Not supported
+                // "1" : Supported
+                "DF918203": "00",
+
+                // CDCVM is suported.
+                // "0" : Not supported
+                // "1" : Supported
+                "DF918204": "01",
+
+                // DEF_TAG_M_TRANS_MODE
+                // 01=EMV mode only
+                // 00=EMV and MSD mode
+                "DF918201": "01"
+            }
+        },
+        // Discover contactless
+        {
+            "aids": [
+                // Discover DPAS AID
+                "A0000001523010"
+            ],
+
+            "allowExtendedAid": true,
+
+            // Kernel id values
+            //   "AMEX"
+            //   "DISCOVER"
+            //   "INTERAC"
+            //   "JCB"
+            //   "MASTERCARD"or "MASTER"
+            //   "MIR"
+            //   "NSICC"
+            //   "PURE"
+            //   "RUPAY"
+            //   "PBOC" or "UNIONPAY"
+            //   "VISA"
+            //   "EMV"
+            "kernelId": "DISCOVER",
+
+            "emvRecommendedAppName": "DIS",
+
+            //Default DDOL
+            "ddol": "9F 37 04",
+
+            //Default TDOL
+            "tdol": "9F 02 06 95 05 5F 2A 02 9A 03 9C 01 9F 37 04",
+
+            "tags": {
+                // Application Version number. Default is 00 02
+                "9F09": "00 01",
+
+                // Terminal Capabilities:
+                //   80 = offline PIN in clear
+                //   40 = online PIN
+                //   20 = sign
+                //   10 = encrypted offline PIN
+                //   8 = no CVM
+                "9F33": "E0 B8 C8",
+
+                // Terminal Transaction Qualifier
+                // MSD supported:   B1b8 1=yes, 0=no
+                // qVSDC supported: B1b6 1=yes, 0=no
+                // EMV supported:   B1b5 1=yes, 0=no
+                "9F66": "32 60 40 00",
+
+                // Cless Transaction Limit
+                "DF8124": "00 00 00 00 99 99",
+
+                // Cless Floor Limit
+                "DF8123": "00 00 00 00 00 00",
+
+                // Cless Cvm Required Limit
+                "DF8126": "00 00 00 01 00 00",
+
+                // Issuer scripts supported
+                "DF8117": "01",
+
+                // Data storage container record data
+                "DF8102": "00"
+            }
+        },
+        // American Express contactless
+                {
+                    "aids": [
+                        // American Express ExpressPay AID or AMEX
+                        "A00000002501"
+                    ],
+
+                    "allowExtendedAid": true,
+
+                    // Kernel id values
+                    //   "AMEX"
+                    //   "DISCOVER"
+                    //   "INTERAC"
+                    //   "JCB"
+                    //   "MASTERCARD"or "MASTER"
+                    //   "MIR"
+                    //   "NSICC"
+                    //   "PURE"
+                    //   "RUPAY"
+                    //   "PBOC" or "UNIONPAY"
+                    //   "VISA"
+                    //   "EMV"
+                    "kernelId": "AMEX",
+
+                    "emvRecommendedAppName": "AMEX",
+
+                    // Default Internal TDOL
+                    "tdol": "9F 08 02",
+
+                    "tags": {
+                        // Application Version number. Default is 00 02
+                        "9F09": "00 01",
+
+                        // Terminal Capabilities:
+                        //   Plaintext PIN
+                        //   PIN Online
+                        //   Signature
+                        //   Offline PIN and No CVM
+                        //   SDA
+                        //   DDA
+                        //   Card capture and CDA
+                        "9F33": "E0 B8 C8",
+
+                        // ExpressPay Terminal Capabilities
+                        //   00 = ExpressPay 1.0
+                        //   40 = ExpressPay 2.0 Magstripe Only
+                        //   80 = ExpressPay 2.0 EMV and Magstripe
+                        //   C0 = ExpressPay Mobile
+                        "9F6D": "C0",
+
+                        // ExpressPay Terminal Transaction Capabilities
+                        "9F6E": "9C B0 00 03",
+
+                        // Expresspay unpredictable number range
+                        "DF44": "00 3C",
+
+                        // Cless Transaction Limit
+                        "DF8124": "00 00 00 00 15 00",
+
+                        // Cless Floor Limit
+                        "DF8123": "00 00 00 00 12 00",
+
+                        // Cless Cvm Required Limit
+                        "DF8126": "00 00 00 00 10 01",
+
+                        // Try again when CD-CVM requires user to look at the mobile device
+                        "DF8130": "00",
+
+                        // MSD Supported: 00=yes, 01=no
+                        "DF8135": "00",
+
+                        // Terminal Action Code Default
+                        "DF918110": "DC 50 FC 98 00",
+
+                        // Terminal Action Code Denial
+                        "DF918111": "00 10 00 00 00",
+
+                        // Terminal Action Code Online
+                        "DF918112": "DE 00 FC 98 00"
+                    }
+                },
+
+        // JCB contactless
+        {
+            "aids": [
+                // JCB AID
+                "A0000000651010"
+            ],
+
+            "allowExtendedAid": true,
+
+            // Kernel id values
+            //   "AMEX"
+            //   "DISCOVER"
+            //   "INTERAC"
+            //   "JCB"
+            //   "MASTERCARD"or "MASTER"
+            //   "MIR"
+            //   "NSICC"
+            //   "PURE"
+            //   "RUPAY"
+            //   "PBOC" or "UNIONPAY"
+            //   "VISA"
+            //   "EMV"
+            "kernelId": "JCB",
+
+            "emvRecommendedAppName": "JCB",
+
+            "tags": {
+                // Application Version number. Default is 00 02
+                "9F09": "02 00",
+
+                // JCB Cless Transaction Limit
+                "DF918402": "00 00 09 99 99 98",
+
+                // JCB Cless Floor Limit
+                "DF918401": "00 00 00 00 20 00",
+
+                // JCB Cless CVM Limit
+                "DF918403": "00 00 00 01 00 00",
+
+                // Cert Terminal Action Code Default
+                "DF918110": "FC 60 24 A8 00",
+
+                // Cert Terminal Action Code Denial
+                // "DF918111": "00 10 00 00 00",
+
+                // Cert Terminal Action Code Online
+                // "DF918112": "FC 60 AC F8 00",
+
+                // Prod Terminal Action Code Default
+                // "DF918110": "FC 60 24 28 00",
+
+                // Prod Terminal Action Code Denial
+                "DF918111": "00 10 00 00 00",
+
+                // Prod Terminal Action Code Online
+                "DF918112": "FC 60 AC F8 00",
+
+                // Biased Selection Threshold
+                "DF918409": "00 00 00 00",
+
+                // Target Percentages
+                "DF918406": "00",
+
+                // Maximum Target Percentage
+                "DF918405": "00",
+
+                // JCB COMBINATION OPTIONS
+                // MSD supported: B1b3 1=no, 0=yes
+                // see JCB Contactless IC Terminal Specification V1.2 Annex A.3
+                "DF918404": "2F 00",
+
+                // JCB Terminal interchange profiles
+                // see JCB Contactless IC Terminal Specification V1.2 Annex A.6
+                "DF918408": "53 00 00"
+            }
+        }
+    ],
+    "globalTags": {
+        // Currency code
+        // 01 24 for Canada
+        // 08 40 for US
+        "5F2A": "08 26",
+
+        // Currency Exponent
+        "5F36": "02",
+
+        // Country code
+        // 01 24 for Canada
+        // 08 40 for US
+        "9F1A": "08 26",
+
+        // Terminal Floor Limit
+        "9F1B": "00 00 00 00",
+
+        // Terminal Identifier
+        "9F1C": "31 32 33 34 31 32 33 34",
+
+        // Terminal Capabilities:
+        //   80 = offline PIN in clear
+        //   40 = online PIN
+        //   20 = sign
+        //   10 = encrypted offline PIN
+        //   8 = no CVM
+        "9F33": "E0 B8 C8",
+
+        //Terminal Type
+        "9F35": "22",
+
+        // Additional Terminal Capabilities
+        "9F40": "F8 00 F0 A0 01",
+
+        // Threshold Value Random Selection
+        "DF91810C": "00 00 00 00 00 00",
+
+        // Max Perc Random Selection
+        "DF91810E": "00",
+
+        // Target Perc Random Selection
+        "DF91810D": "00",
+
+        // Terminal Action Code Default
+        "DF918110": "DC 40 00 A8 00",
+
+        // Terminal Action Code Denial
+        "DF918111": "00 10 00 00 00",
+
+        // Terminal Action Code Online
+        "DF918112": "DC 40 04 F8 00"
+    }
+}

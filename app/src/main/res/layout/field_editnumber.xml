@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?android:attr/selectableItemBackground"
+              android:orientation="horizontal"
+              android:paddingBottom="10dp"
+              android:paddingLeft="20dp"
+              android:paddingRight="20dp"
+              android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/field_name_textview"
+            style="@style/large_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Field name"/>
+
+        <TextView
+            android:id="@+id/class_type_textview"
+            style="@style/small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:textStyle="italic"
+            android:text="class type"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/settings_editnumber"
+        style="@style/xlarge_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:inputType="number"
+        android:maxLines="3"
+        android:maxWidth="300dp"
+        android:backgroundTint="@color/dark_grey"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>

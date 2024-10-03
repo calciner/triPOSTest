@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="debug">
+    <Properties>
+        <Property name="filename">${filename}</Property>
+    </Properties>
+    <Appenders>
+
+        <RollingFile name="file" fileName="${filename}/triPOSSDK.log" filePattern="${filename}/triPOSSDK-%d{ddMMyyyy}-%i.log">
+
+            <PatternLayout>
+                <Pattern>%d{ISO8601} - [%c - %L]{%tid - %tn} - %p - (%M\) : %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy>
+                <Delete basePath="${filename}" maxDepth="1">
+                    <IfFileName glob="triPOSSDK-*.log" />
+                    <IfLastModified age="P3D"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{ISO8601} - [%c - %L] - %p - (%M\) : %m%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="DEBUG">
+            <AppenderRef ref="console"/>
+            <AppenderRef ref="file"/>
+        </Root>
+    </Loggers>
+</Configuration>

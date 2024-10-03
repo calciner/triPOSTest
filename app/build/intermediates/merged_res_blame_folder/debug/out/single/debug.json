@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/drawable_white_rounded_background.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/drawable/white_rounded_background.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/layout_field_editnumber.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/layout/field_editnumber.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/drawable_ic_keyboard_arrow_right_black_24dp.png.flat",
+        "source": "com.vantiv.sampleapp-main-41:/drawable/ic_keyboard_arrow_right_black_24dp.png"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/layout_action_list_content.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/layout/action_list_content.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.vantiv.sampleapp-main-41:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.vantiv.sampleapp-main-41:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/drawable_ic_settings_black_24dp.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/drawable/ic_settings_black_24dp.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/layout-w900dp_action_list.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/layout-w900dp/action_list.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.vantiv.sampleapp-main-41:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/layout_activity_item_detail.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/layout/activity_item_detail.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/layout_action_list.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/layout/action_list.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/layout_action_detail.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/layout/action_detail.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/layout_activity_webview_hosted_payments.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/layout/activity_webview_hosted_payments.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/layout_activity_item_list.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/layout/activity_item_list.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.vantiv.sampleapp-main-41:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.vantiv.sampleapp-main-41:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/drawable_button_rounded_background.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/drawable/button_rounded_background.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/menu_menu_main.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/drawable-v21_button.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/drawable-v21/button.xml"
+    },
+    {
+        "merged": "com.vantiv.sampleapp-merged_res-39:/layout_switch_menu_item.xml.flat",
+        "source": "com.vantiv.sampleapp-main-41:/layout/switch_menu_item.xml"
+    }
+]

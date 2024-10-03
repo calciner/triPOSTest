@@ -1,0 +1,1418 @@
+<properties>
+    <host key="Worldpay">
+        <devices>
+            <device key="BBPosDevice">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRbaBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRbaTcpIp">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppTcpIp">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="Null">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="NullDeviceWithNoPinpadOrDisplay">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRuaBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRuaUsb">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppUsb">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoAxium">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+        </devices>
+    </host>
+    <host key="WorldpayCanada">
+        <devices>
+            <device key="BBPosDevice">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRbaBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRbaTcpIp">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppTcpIp">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="Null">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="NullDeviceWithNoPinpadOrDisplay">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRuaBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRuaUsb">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppUsb">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoAxium">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+        </devices>
+    </host>
+    <host key="ChasePaymentech">
+        <devices>
+            <device key="BBPosDevice">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRbaBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRbaTcpIp">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppTcpIp">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="Null">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="NullDeviceWithNoPinpadOrDisplay">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRuaBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRuaUsb">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppUsb">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoAxium">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+        </devices>
+    </host>
+    <host key="TSYS">
+        <devices>
+            <device key="BBPosDevice">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRbaBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRbaTcpIp">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppTcpIp">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="Null">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="NullDeviceWithNoPinpadOrDisplay">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRuaBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRuaUsb">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppUsb">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoAxium">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+        </devices>
+    </host>
+    <host key="FirstData">
+        <devices>
+            <device key="BBPosDevice">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRbaBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRbaTcpIp">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppTcpIp">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="Null">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="NullDeviceWithNoPinpadOrDisplay">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRuaBluetooth">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoRuaUsb">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoUppUsb">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoAxium">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+        </devices>
+    </host>
+    <host key="WorldpayUK">
+        <devices>
+            <device key="Null">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="NullDeviceWithNoPinpadOrDisplay">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+            <device key="IngenicoAxium">
+                <permissions>
+                    <permission key="StandardEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="ContactlessEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                    <permission key="QuickchipEmvCertified">
+                        <permission>
+                            <value>false</value>
+                        </permission>
+                    </permission>
+                    <permission key="CashbackEmvCertified">
+                        <permission>
+                            <value>true</value>
+                        </permission>
+                    </permission>
+                </permissions>
+            </device>
+        </devices>
+    </host>
+</properties>

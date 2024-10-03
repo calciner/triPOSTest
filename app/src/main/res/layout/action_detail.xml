@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sdkStatusTextView"
+            style="@style/large_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sdk_status_temp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/transactionStatusTextView"
+            style="@style/large_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/sdkStatusTextView"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text=""
+            android:textAlignment="textEnd"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/deviceStatusTextView"
+        style="@style/large_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/device_status_temp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/addedStuffLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/actionButton"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_rounded_background"
+        android:enabled="true"
+        android:text="@string/action_button_temp"
+        android:textColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/colorPrimary"
+                android:indeterminateTintMode="src_in"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/outputTextView"
+                style="@style/medium_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                android:textIsSelectable="true" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

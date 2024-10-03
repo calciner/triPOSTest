@@ -1,0 +1,35 @@
+{
+  "connections": [
+    {
+      "name": "primary",
+      "type": "tcpipServer",
+
+      // connectionTimeoutMs - Ignored for TCP/IP Server.
+      "connectionTimeoutMs": 30000,
+
+      // inactivityTimeoutMs - Specifies the time (in milliseconds) in which the ECR must send some form of message.
+      // If no message occurs within this period, the connection will be closed.
+      "inactivityTimeoutMs": 120000,
+
+      "serverConfig": {
+
+        // ipAddress - The IP address on which to listen for connections.  Use terminal's default IP address if set to "0.0.0.0".
+        "ipAddress": "0.0.0.0",
+
+        // Port - The TCP port on which to listen for connections.
+        "port": 12001
+      },
+      "ssl": {
+
+        // mode - Use SSL protocol to secure the communication channel
+        //    = none    -- Do not secure the communication channel.
+        //    = tls_v1_2 -- Use TLS version 1.2.
+        "mode": "none",
+
+        // pkcs12File - Specifies the PKCS#12 format file containing credentials for SSL communication.
+        // Used only when "mode" is not "none".
+        "pkcs12File": "filename2"
+      }
+    }
+  ]
+}

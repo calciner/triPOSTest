@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="sdk_status_temp">SDK status</string>
+    <string name="device_status_temp">Device status</string>
+    <string name="action_button_temp">ACTION BUTTON</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="temp_string">Lorem ipsum dolor sit amet</string>
+    <string name="sdk_not_initialized">SDK not initialized</string>
+    <string name="device_was_null">Device was null</string>
+    <string name="device_not_connected">Device not connected</string>
+
+    <string-array name="dummy_array">
+        <item>Enum value 1</item>
+        <item>Enum value 2</item>
+        <item>Enum value 3</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
